@@ -1,0 +1,59 @@
+[
+  {
+    "code": "ENG1_FIRE",
+    "name": "ENGINE 1 FIRE",
+    "steps": [
+      "Thrust lever 1 ........ IDLE",
+      "ENG MASTER 1 ........ OFF",
+      "ENG FIRE pushbutton 1 ........ PUSH",
+      "If fire confirmed: ENG AGENT 1 ........ DISCH",
+      "If fire persists after 30 s: ENG AGENT 2 ........ DISCH"
+    ]
+  },
+  {
+    "code": "SMOKE_CABIN",
+    "name": "SMOKE / FUMES / AVNCS",
+    "steps": [
+      "Oxygen masks ........ USE",
+      "Crew communications ........ ESTABLISH",
+      "Recirculation fans ........ OFF",
+      "Pack flow ........ INCREASE",
+      "Refer to QRH for remaining steps"
+    ]
+  },
+  {
+    "code": "EMER_DESCENT",
+    "name": "EMERGENCY DESCENT",
+    "steps": [
+      "Crew OXY masks ........ ON",
+      "Crew communications ........ ESTABLISH",
+      "SIGNS ........ ON",
+      "EMER DESCENT ........ INITIATE",
+      "THR LEVERS ........ IDLE",
+      "SPEED BRAKES ........ FULL"
+    ]
+  },
+  {
+    "code": "LOSS_BRAKING",
+    "name": "LOSS OF BRAKING",
+    "steps": [
+      "Reverse thrust ........ MAX",
+      "Brake pedals ........ RELEASE",
+      "A/SKID & N/W STRG ........ OFF",
+      "Brake pedals ........ PRESS",
+      "MAX brake pressure ........ 1000 PSI",
+      "If still no braking: PARK BRK ........ SHORT/REPEATED APPLY"
+    ]
+  },
+  {
+    "code": "STALL_RECOVERY",
+    "name": "STALL RECOVERY",
+    "steps": [
+      "NOSE DOWN PITCH CONTROL ........ APPLY",
+      "BANK ........ WINGS LEVEL",
+      "THRUST ........ ADJUST",
+      "FLIGHT PATH ........ RECOVER",
+      "SPEED BRAKES ........ CHECK RETRACTED"
+    ]
+  }
+]
